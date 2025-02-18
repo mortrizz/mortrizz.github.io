@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Contact</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+	
+	<style>
+	a,input,select{
+	font-size:44px;
+	}
+	
+	</style>
+	</head>
+	
+	<body style='background-color:RoyalBlue;'>
+			<nav style='background-color:Skyblue; text-align:center; font-weight:bold;'>
+			<a href="p1_aboutme.html"> About Me</a> &nbsp &nbsp &nbsp
+			<a href="p2_hobbypage.html"> My hobbys</a>  &nbsp &nbsp &nbsp
+			<a href="work.html"> portoflio</a>  &nbsp &nbsp &nbsp
+			<a href="4th.html"> My favorites</a>  &nbsp &nbsp &nbsp
+			<a href="college.html"> Contact me</a>  &nbsp &nbsp &nbsp
+			</nav> 
+			
+			
+		<h1 style='background-color:BlanchedAlmond; text-align:center; font-weight:bold;'>  My Contact Form</h1>
+			<h2 style='background-color:BlanchedAlmond; text-align:center; font-weight:bold;'>This is a way to contact me</h2>
+				
+			<form> 
+				<label> First Name: <input type='text' placeholder='john'> </label> <br>
+				<label> Last Name: <input type='text' placeholder='smith'> </label>	<br>
+				<p> <b> Best Way of Contact   </b> </p> <br>
+				
+				<label> What do you prefer? </label> &nbsp &nbsp &nbsp
+				
+				<select> (listbox)
+					<option> Phone Call </option>
+					<option> Video Call</option>
+					<option> Email</option>
+					<option> SMS </option>
+					<option> Gmail Chat</option>
+				</select>
+				
+		<br><br><br>
+				<!--Radio Type Menu -->
+			<fieldset>
+				<legend> See whats Closet to you? (Choose one) </legend>
+					<input type='radio'> (radio)
+				<label> Chicago - Northside  </label> <br>
+					<input type='radio'> (radio)
+				<label> Chicago - South Side  </label> <br>
+				<input type='radio'> (radio)
+				<label> Chicago - Skokie   </label> <br>
+				<input type='radio'> (radio)
+				<label> Chicago - Downtown  </label> <br>
+				<input type='radio'> (radio)
+				<label> Chicago - Rogers Park  </label> <br>
+			</fieldset> <br><br>
+			<!--Make a Label to take the date of Visit from the user -->
+			<label> Date of Visit: </label>
+				<input type='date'> <br> <br>
+			<label> Time Of Visit </label>
+				<input type='time'> <br> <br>
+			<!--Make a Label to take the date of Visit from the user -->
+			<label> Attach your Business Plan/Resume</label>
+				<br> <br> <input type='file'> <br> <br>
+
+				<label> Attach your Business Card</label>
+				<br> <br> <input type='file'> <br> <br>
+			
+			<!--Input a number -->
+			<label>How long do you want to meet for</label>s
+			<input type='number' min='1' max='45'>(spinbutton) minutes <br> <br>
+			
+			<label>Select your favorite color swag</label>
+			<input type='color'> <br> <br>
+			
+			<label>Email Address:</label>
+			<input type='email' placeholder='johnsmith@gmail.com'> <br> <br>
+			
+			<label>Phone number:</label>
+			<input type='tel' placeholder='123.123.1234' pattern='
+			[0-9]{3}.[0-9]{3}.{0-9]{4}' required> 
+			
+			
+			<select> (listbox)
+					<option> Cell </option>
+					<option> Home</option>
+					<option> Work</option>
+			</select>
+			<br> 
+			
+			<!--Submit and Rest Button -->
+			
+			<input type='submit' value='Submit'> &nbsp &nbsp 
+			<input type='reset' value='reset'>
+			
+			<!--Adding Assesability to a form -->
+		</form>
+			
+			
+	</body>
+
+</html>
+

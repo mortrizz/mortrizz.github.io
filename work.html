@@ -1,0 +1,127 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title> Portfolio </title>
+	</head>
+	<body>
+	<nav style='background-color:BlanchedAlmond; text-align:center; font-weight:bold;'>
+	<a href="p1_aboutme.html"> About Me</a> &nbsp &nbsp &nbsp
+	<a href="p2_hobbypage.html"> My hobbys</a>  &nbsp &nbsp &nbsp
+	<a href="work.html"> Portfolio</a>  &nbsp &nbsp &nbsp
+	<a href="4th.html"> My favorites</a>  &nbsp &nbsp &nbsp
+	<a href="college.html"> Contact me</a>  &nbsp &nbsp &nbsp
+	</nav>
+	<h1> This is my Third page - My Portfolio </h1>
+	
+		<style>
+		/* internal CSS*/
+			body {
+				background-color: AntiqueWhite;
+				padding: 20px;
+				font-family: Arial;
+			}
+			
+			/*Center of the Page*/
+			.main {
+				max-width:100px;
+				margin: auto;
+			}
+			
+			*{
+				box-sizing: border-box }
+			
+			.row{
+				margin:8px-16px;
+			}
+				/*Create four equal columns that floats next to each other*/
+			.column{
+				float: left;
+				width:25%;
+			}
+			/*add padding between each column*/
+			.row, .row>.column{
+				padding:8px;
+			}
+			
+			/* Content*/
+			.content{
+				background-color: Burlywood;
+				color: white;
+				padding:10px;
+			}
+			
+		/* responsive layout- makes a two column -layout instead of four columns*/
+			@media screen and (max-width:900px){
+				.column{ width:50%;}
+			}
+		/* responsive layout- makes a two column -layout instead of four columns*/	
+			@media screen and (max-width:600px){
+				.column{ width:100%;}
+			}
+			/*Clears floats after rows*/
+			.content: after{
+				content:'';
+				display: table;
+				clear: both;
+			}
+		</style>
+	<!--This is my Portfolio page and I am using CSS to make icons -->
+	
+	
+<!-- portfolio Gallery grid-->	
+		<div class="row">
+			<div class="column">
+				<div class="content">
+				<img src='mexico.jpg' alt="Vacation Card" height="600" width='300' style='width:90%'>
+					<h3> My dream Vacation</h3>
+					<p> I love going to Mexico because of the peaceful ness of nature and mountains there</p>
+				</div>
+			</div>
+		</div>'
+	<!-- 2nd part-->
+	<div class="row">
+		<div class="column">
+			<div class="content">
+					<img src='bugatti.jpg' alt="Vacation Card" height="600" width='300' style='width:90%'>
+						<h3> Cars</h3>
+						<p> I Enjoy about cars and I would like to learn more about them</p>
+					</div>
+				</div>
+			</div>
+	<!-- 2nd part-->
+	<div class="row">
+		<div class="column">
+			<div class="content">
+				<img src='weight.jpg' alt="Vacation Card" height="600" width='300' style='width:90%'>
+					<h3> Working out</h3>
+					<p> I enjoy weight lifting I been for 2 years but I also took 2 long breaks</p>
+				</div>
+			</div>
+		</div>
+	<!-- 2nd part-->
+	<div class="row">
+		<div class="column">
+			<div class="content">
+				<img src='soccer.jpg' alt="Vacation Card" height="300" width='300' style='width:90%'>
+					<h3> Soccer</h3>
+					<p> I love soccer I enjoy the sport and my goal is to get into a professional team.</p>
+				</div>
+			</div>
+		</div>
+	<!-- 2nd part-->
+	<div class="row">
+		<div class="column">
+			<div class="content">
+				<img src='comp.jpg' alt="Vacation Card" height="600" width='300' style='width:90%'>
+					<h3>Coding </h3>
+					<p> I began taking Computer Science in my freshmen year and from than I have began to like coding</p>
+				</div>
+			</div>
+		</div>
+			
+			
+	
+	
+	
+	</body>
+</html>
